@@ -1,0 +1,50 @@
+{
+  "name": "Transaction",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "transactionName": {
+      "type": "string",
+      "required": true
+    },
+    "statusPembayaran": {
+      "type": "string",
+      "required": true
+    },
+    "waktuPembayaran": {
+      "type": "date"
+    },
+    "statusKonfirmasi": {
+      "type": "string",
+      "required": true
+    },
+    "sentAt": {
+      "type": "date"
+    },
+    "confirmAt": {
+      "type": "date"
+    },
+    "receivedAt": {
+      "type": "date"
+    },
+    "receiverName": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "string"
+    },
+    "TotalPrice": {
+      "type": "number"
+    },
+    "Quantity": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

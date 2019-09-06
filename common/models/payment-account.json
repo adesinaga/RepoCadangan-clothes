@@ -1,0 +1,30 @@
+{
+  "name": "PaymentAccount",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "AccountNumber": {
+      "type": "number",
+      "required": true
+    },
+    "AccountName": {
+      "type": "string",
+      "required": true
+    },
+    "BankName": {
+      "type": "string",
+      "required": true
+    },
+    "CreateAt": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

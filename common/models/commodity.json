@@ -1,0 +1,38 @@
+{
+  "name": "Commodity",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "CommodityName": {
+      "type": "string",
+      "required": true
+    },
+    "Price": {
+      "type": "number",
+      "required": true
+    },
+    "Quantity": {
+      "type": "number",
+      "required": true
+    },
+    "EntryDate": {
+      "type": "date"
+      
+    },
+    "EntryBy": {
+      "type": "string",
+      "required": true
+    },
+    "Category": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

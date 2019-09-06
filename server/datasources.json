@@ -1,0 +1,17 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  
+  "mongodb": {
+    "host":"localhost",
+    "port": 27017,
+    "name": "mongodb",
+    "database ": "sales_management",
+    "connector": "mongodb",
+    "extends_operators": true,
+    "useNewUrlParser": true
+
+  }
+}
