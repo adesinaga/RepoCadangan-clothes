@@ -20,7 +20,6 @@
     },
     "EntryDate": {
       "type": "date"
-      
     },
     "EntryBy": {
       "type": "string",
@@ -29,6 +28,9 @@
     "Category": {
       "type": "string",
       "required": true
+    },
+    "Foto": {
+      "type": "string"
     }
   },
   "validations": [],

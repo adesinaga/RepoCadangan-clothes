@@ -36,15 +36,19 @@
     "public": false
   },
   "Commodity": {
-    "dataSource": "mongodb",
+    "dataSource": "mongodb2",
     "public": true
   },
   "Transaction": {
-    "dataSource": "mongodb",
+    "dataSource": "mongodb2",
     "public": true
   },
   "PaymentAccount": {
-    "dataSource": "mongodb",
+    "dataSource": "mongodb2",
+    "public": true
+  },
+  "chat": {
+    "dataSource": "mongodb2",
     "public": true
   }
 }
